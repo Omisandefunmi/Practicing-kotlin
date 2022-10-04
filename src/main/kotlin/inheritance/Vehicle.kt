@@ -1,10 +1,10 @@
 package inheritance
 
-open class Animal (var name : String) {
+open class Vehicle (var name : String) {
     init {
-        println("I am an animal")
+        println("I am a Vehicle")
     }
-    open fun makeSound(){
-        println("Animal makes sound!")
+    open fun move(){
+        println("Moving like a vehicle")
     }
 }

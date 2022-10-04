@@ -1,7 +1,7 @@
 package inheritance
 
-class Cat(name : String) : Vehicle(name) {
+class Car(name : String) : Vehicle(name) {
     override fun move() {
-        println("Meow Meow Meow")
+        println("Moving like a car")
     }
 }

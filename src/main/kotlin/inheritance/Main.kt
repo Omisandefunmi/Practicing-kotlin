@@ -1,9 +1,9 @@
 package inheritance
 
     fun main(){
-        var animal = Animal("Animal")
-        var dog = Dog("Fred")
-        dog.makeSound()
-        var cat = Cat("Pussy")
-        cat.makeSound()
+        var vehicle = Vehicle("Vehicle")
+        var jeep = Jeep("Lexus")
+        jeep.move()
+        var car = Car("Corolla")
+        car.move()
     }

@@ -1,7 +1,22 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    println("Adewale and Amaka steady breaking Juno bunks!")
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+    var language = "French"
+    val score = 85
+
+    println("$language and $score")
+
+    language = "Yoruba"
+
+    println("$language and $score")
+
+    var indigene: String = "Igala"
+
+    val total: Int = 75
+
+    println("$language and $score and $indigene with $total")
+
+
+
+
 }
